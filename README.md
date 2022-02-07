@@ -1,4 +1,4 @@
 # Exercícios Python
 
- Aqui estão alguns exercícios de python feito pelo canal __Curso__ __Em__ 
-__Vídeo__ do **Gustavo Guanabara**, eu ainda estou aprendendo essa linguagem.
+ Aqui estão alguns exercícios de python feito pelo canal <a href = "https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ">__Curso__ __Em__ 
+__Vídeo__</a> do **Gustavo Guanabara**, eu ainda estou aprendendo essa linguagem.
