@@ -14,7 +14,7 @@ for li in range(0,3):
         print(f'[{m[li][co]:^5}]', end='')
         if m[li][co] %2==0: #vendo se é par
             pares += m[li][co]
-    print()  # aqui e para quebrar linha
+    print()
 print('-='*50)
 print(f'A soma dos números pares são: {pares}')
 #coluna fixa linha variavel

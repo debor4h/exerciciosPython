@@ -9,35 +9,9 @@ vinte = (saque%50)//20
 dez = ((saque%50)%20)//10
 um = ((saque%50)%10)
 
-print(f'Total de {cinquenta} células de R$50')
-print(f'Total de {vinte} células de R$20')
-print(f'Total de {dez} células de R$10')
-print(f'Total de {um} células de R$1')
+print(f'Total de {cinquenta :.2f} células de R$50')
+print(f'Total de {vinte  :.2f} células de R$20')
+print(f'Total de {dez  :.2f} células de R$10')
+print(f'Total de {um  :.2f} células de R$1')
 
 
-
-#nao conseguir entender essa logica do guanabara
-print('*'*45)
-print(f'Banco DEV')
-print('*'*45)
-valor = float(input('Qual valor você quer sacar? R$ '))
-tot = valor
-ced = 50 #vai comecar com a de  maior valor no eninciado
-totcedula = 0
-while True:
-  #quantas vezes eu consigo tirar 50 do total
-    if tot>=ced:
-      tot -= ced
-      totcedula +=1
-    else:
-      if totcedula > 0:
-        print(f'Total de {totcedula} cédulas é de R$ {ced}')
-      if ced == 50:
-        ced = 20
-      elif ced == 20:
-        ced = 10
-      elif ced == 10:
-        ced = 1
-      totcedula = 0
-      if tot == 0:
-        break;

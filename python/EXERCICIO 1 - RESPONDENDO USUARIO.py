@@ -1,2 +1,2 @@
-nome = str(input("Digite seu nome: "))
-print("É um prazer te conhecer, " + nome)
+nome = str(input("Digite seu nome: ")).capitalize()
+print(f'É um prazer te conhecer, {nome}.' )

@@ -4,24 +4,6 @@
 #lista com os times em ordem alfabetica
 #em que posicao esta chapecoense
 
-times = ('Atletico-MG','Palmeiras','Fortaleza','Bragantino','Flamengo','Corinthians','Atletico-GO',
-         'Ceara-SC','Atletico-PR','Internacional','Santos','Sao Paulo','Juventude','Cuiaba','Bahia',
-         'Fluminense','Gremio','Sport Recife','America-MG','Chapecoense')
-
-print('=-'*50)
-print(f'Os cinco primeiros times são: {times[:5]}')
-print('=-'*50)
-print(f'Os quatro últimos times são: {times[16:]}')
-print('=-'*50)
-print(f'Os times em ordem alfabetica são: {sorted(times)}')
-print('=-'*50)
-for i,v in enumerate(times):
-    if v == 'Chapecoense':
-        print(f'Chapeconse está na posição: {i+1} º')
-
-print('=-'*50)
-
-#73
 times = ('Palmeiras','Atlético-MG','Fortaleza','Bragantino','Atlético-PR','Flamengo','Ceára SC',
          'Bahia','Fluminense','Santos','Atlético-GO','Corinthians','Internacional','Juventude',
          'Cuibá','São Paulo','Sport-Recife','América-MG','Grêmio','Chapecoense')

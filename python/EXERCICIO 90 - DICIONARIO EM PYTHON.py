@@ -1,9 +1,4 @@
 #FACA UM PROGRAMA QUE LEIA O NOME E A MEDIA DE UM ALUNO
-#E A SITUACAO MAIS DE 7 APROVADO GURDANDO A SITUCAO EM UM DICIONARIO
-#NOME E IGUAL A ....
-#MEDIA É 3.5
-#SITUACAO É == A REPROVADO
-#SO P UMA PESSOA
 
 aluno = dict() #criando dicionario
 #colocar o nome do dicionario e o seu indice, depois o q ele recebe
@@ -24,7 +19,3 @@ print('-='*30)
 #para cada indice e valor e aluno
 for i,v in aluno.items():
     print(f'{i} é igual a {v}')
-#fazer um for ao inves disso
-#print(f'Nome é igual a {aluno["nome"]}.')
-#print(f'Média é igual a {aluno["media"]}')
-#print(f'Situação é igual a {aluno["situacao"]}.')

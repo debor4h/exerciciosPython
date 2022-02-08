@@ -1,6 +1,6 @@
 #indo de 10 ate 0 com uma pausa de 1 segundo
-import time #importacao do sleep
-import emoji #importacao do emoji
+import time
+import emoji
 
 #sleep ele faz contagem regressiva
 for fogos in range(10,0,-1): #vai ao 10 ao 1, tirando um

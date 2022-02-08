@@ -16,7 +16,7 @@ print('Milhar: {}'.format(m))
 #validando
 while True:
   numero = int(input('Digite um número entre 0 - 7777: '))
-  if numero < 7777:
+  if numero <= 7777:
     break;
 
 print(f'Analisando o número {numero}')

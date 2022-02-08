@@ -1,4 +1,6 @@
 #Diga se a pessoa tem silva no nome
-nome=str(input('Qual seu nome e sobrenome: ')).lower().strip() #vai passar para o maiusculo e tirar os espacos
-print('Tem Silva no nome? {}'.format('silva' in nome))#esse silva deve ser em Maius ou Min
-#IN É NO
+sobrenome = str(input('Qual seu nome e sobrenome: ')).upper().strip()
+if sobrenome == 'SILVA' and len(sobrenome) == 5:
+    print('Tem SILVA no sobrenome')
+else:
+    print('Não tem SILVA no sobrenome')

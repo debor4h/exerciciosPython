@@ -1,21 +1,21 @@
 from datetime import date #necessario para data
 
-idade = int(input("Qual ano de nascimento: "))
+anoNascimento = int(input("Qual ano de nascimento: "))
 ano = date.today().year
-i = ano - idade;
+idade = ano - anoNascimento
 
-if(i<=9):
-    print ("Idade: ",i)
+if(idade<=9):
+    print ("Idade: ",idade)
     print("Classificação: Mirim")
-elif(i<=14):
-    print("Idade: ",i)
+elif(idade<=14):
+    print("Idade: ",idade)
     print("Classificação: Infantil")
-elif(i<=19):
-    print("Idade: ",i)
+elif(idade<=19):
+    print("Idade: ",idade)
     print("Classificação: Junior")
-elif(i<=20):
-    print("Idade: ",i)
+elif(idade<=20):
+    print("Idade: ",idade)
     print("Classificação: Sênior")
 else:
-    print("Idade: ",i)
+    print("Idade: ",idade)
     print("Classificação: Master")

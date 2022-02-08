@@ -1,14 +1,3 @@
-sexo = ' '
-while sexo != 'M' and sexo !=  'F':
-    sexo = str(input('Digite seu sexo [F|M]: ')).upper()
-    if sexo == 'F':
-        print('Feminino')
-    elif sexo == 'M':
-        print('Masculino')
-    else:
-        print('Sexo inválido, apenas digite F para FEMININO ou M para MASCULINO.')
-
-
 #PROGRAMA QUE SO ACEITA F e M. E NAO PARE ATE CONSEGUIR
 teste = 'S'
 while teste == 'S':

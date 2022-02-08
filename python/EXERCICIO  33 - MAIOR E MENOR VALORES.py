@@ -3,17 +3,17 @@ n = int(input('Digite o 1º número: '))
 u = int(input('Digite o 2º número: '))
 m = int(input('Digite o 3º número: '))
 
-num = [n,u,m] #LISTA COMECA NO 0
+num = [n,u,m]
 #esse max ele organiza a lista do menor para o maior, pegar -1 pega o da direita o maior
-print('Maior {}'.format(max([num][-1]))) #MAXIMO VALOR NA LISTA POSICAO -1 PARA PEGAR O ULTIMO
-print('Menor {}'.format(min([num][0]))) #MINIMO VALOR
+print('Maior {}'.format(max([num][-1])))
+print('Menor {}'.format(min([num][0])))
 
 #ou
 
 print('**************************************************')
 
-lista = [n,u,m] #coloca dentro de uma lista
-listaOrdenada = sorted(lista) #sorted faz com q os numeros fiqeum em ordem crescente
+lista = [n,u,m]
+listaOrdenada = sorted(lista) #sorted faz com q os numeros fiquem em ordem crescente
 print('Maior: ',listaOrdenada[-1])
 print('Menor: ',listaOrdenada[0])
 

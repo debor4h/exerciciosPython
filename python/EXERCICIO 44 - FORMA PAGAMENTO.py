@@ -1,4 +1,4 @@
-print(f'{ "LOJAS GUANABARA ":=^50}') #dessa forma nao precisa criar uma var para loja
+print(f'{ "LOJAS GUANABARA ":=^50}')
 produto = float(input("Valor do produto: "))
 print('-'*50)
 opcoes = int(input("1 - Á vista no dinheiro ou cheque 10% de desconto.\n2 - Á vista no cartão com 5% de desconto.\n3 - 2x no cartão preço normal.\n4 - 3x ou mais no cartão 20% de juros.\nInforme a opção desejada: "))

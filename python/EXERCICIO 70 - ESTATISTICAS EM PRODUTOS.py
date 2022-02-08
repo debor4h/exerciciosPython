@@ -8,11 +8,11 @@ while True:
     produto = str(input('Nome do Produto: ')).upper().strip()
     preco = float(input('Preço: R$'))
     cont +=1
-    if cont == 1: #o priemeiro valor
-        maior = preco#fica com o maior
-        menor = preco#fica com o menor
-    else:#aqui ele ja comeca a comparar com os outros valores
-        if preco>maior:#se segundo valor for maior que o primeiro ele vai  pegar o valor do primeiro
+    if cont == 1:
+        maior = preco
+        menor = preco
+    else:
+        if preco>maior:
             maior = preco
         if preco<menor:
             menor = preco
@@ -21,7 +21,7 @@ while True:
     if preco > 1000:
         mil+=1
     op = ' '
-    while op not in 'SN': #enquanto op  nao estiver dentro de s ou n
+    while op not in 'N' and op not in 'S':
         op = str(input('Quer continuar[S|N]: ')).upper().strip()
     if op == 'N':
         break;

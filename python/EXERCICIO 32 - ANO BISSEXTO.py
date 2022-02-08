@@ -17,5 +17,4 @@ else:
 #Não pode ser divisível por 100. Com isso, a divisão não é exata,
 #ou seja, deixa resto diferente de zero;
 
-#Pode ser que seja divisível por 400. Caso seja divisível por 400,
-#a divisão deve ser exata, deixando o resto igual a zero.
+#Caso seja divisível por 400 a divisão deve ser exata, deixando o resto igual a zero.

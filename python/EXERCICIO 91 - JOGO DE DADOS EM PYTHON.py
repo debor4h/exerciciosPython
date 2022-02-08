@@ -30,13 +30,6 @@ for i,v in enumerate(r):
 
 #minha solucao
 
-
-#4 JOGADOR JOGA UM DADO ENTRE 1 E 6
-#GUARDE EM UM DICIONARIO
-#E COLOCAR EM ORDEM DO MAIOR AO MENOR Nº SORTEADO
-#TEM SLEEP
-#O JOGADOR1 TIROU 4
-#O JOGADOR2 TIROU 6
 from random import randint
 from time import sleep
 from operator import itemgetter

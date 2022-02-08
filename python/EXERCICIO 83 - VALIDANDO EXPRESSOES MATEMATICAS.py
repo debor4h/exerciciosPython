@@ -1,10 +1,3 @@
-#83 - valindo expressao se os () estao abertos ou fechados
-ex = str(input('Digite a expressão entre (): '))
-if ex.count('(') != ex.count(')') or ex.index('(')>ex.index(')'):
-    print('Expressão incorreta !')
-else:
-    print('Expressão correta !')
-
 #nao entendi
 #solucao guanabara
 expr = str(input('Expressão: '))

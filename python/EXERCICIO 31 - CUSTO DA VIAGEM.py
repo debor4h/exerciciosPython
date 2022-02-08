@@ -5,6 +5,6 @@ dh = datetime.now()
 print(dh.strftime('DATA: %d/%m/%Y e %H:%M'))
 dist = int(input('Qual KM da viagem? '))
 if dist<=200:
-    print('Preço a pagar:R$ {} por {}KM rodado.'.format(0.50*dist,dist))
+    print('Preço a pagar:R$ {:.2f} por {:.2f}KM rodado.'.format(0.50*dist,dist))
 else:
-    print('Preço a pagar:R$ {} por {}KM rodado.'.format( 0.45*dist,dist))
+    print('Preço a pagar:R$ {:.2f} por {:.2f}KM rodado.'.format( 0.45*dist,dist))
